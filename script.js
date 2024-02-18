@@ -3,6 +3,7 @@ function getFormvalue() {
 	let inputs=document.querySelectorAll("input");
 	let firstName=inputs[0].value;
 	let lastName=inputs[1].value;
-	let button=inputs[2].value;
-	button.addEventListener("click",alert(firstName + " " + lastName));
+	alert(firstName+" "+lastName);
+	// let button=inputs[2].value;
+	// button.addEventListener("click",alert(firstName + " " + lastName));
 }
